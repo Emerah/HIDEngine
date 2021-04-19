@@ -20,7 +20,15 @@ Users of the library can also choose to **subclass** *HIDController*, which will
 This package has been devoloped on **macOS v10.15** and requires macOS v10.15 as minimum OS requirement.
 
 ---
+## Required ##
+These libraries must be installed on your system. Using homebrew is the easyest way to install:
 
+    - libtool
+    - hidapi
+
+    in terminal: brew install libtool hidapi
+
+---
 ## What the library offers ##
 The library takes care in the background of managing the library objects and the **memory management** associated with C-library hidapi. examples of what is automatically taken care of:
 
@@ -40,6 +48,7 @@ Device properties include:
     - device serial number 
     - and more.
 
+---
 ## Modularity ##
 
 In some cases a user may want to **parse** incoming data and **format** outgoing data or validate data in a certain way that is specefic to a device.
