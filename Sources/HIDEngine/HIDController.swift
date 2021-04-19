@@ -32,7 +32,7 @@
 import Chidapi
 
 
-public class HIDController {
+open class HIDController {
     
     private var activeDevice: HIDDevice?
     private var parser: HIDParser?

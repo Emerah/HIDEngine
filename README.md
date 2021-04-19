@@ -2,22 +2,22 @@
 
 ## overview ##
 
-This packate is a Swift interface into C-library "hidapi" designed to *swiftify* working with HID devices. The product of this package is a dynamic library. Users of the library must import HIDEngine into thier projects.
+This package is a Swift interface into C-library "hidapi" designed to *swiftify* working with HID devices. The product of this package is a dynamic library. Users of the library must import HIDEngine into thier projects.
 
 ---
 
 ## How to use the library ##
-Add this swift package to your Xcode project. Users of the library can inistantiate HIDControlleror with a device's vendor and product ids which will enable:
+Add this swift package to your Xcode project. Users of the library can **inistantiate** *HIDControlleror* with a device's vendor and product ids which will enable:
 
     - access to hid interface of usb devices 
     - inspecting device information
     - sending and receiving hid data to and from a usb device
 
-Users of the library can also choose to subclass HIDController, which will similarly enable the above and allow for writing code that is specific to the device at hand.
+Users of the library can also choose to **subclass** *HIDController*, which will similarly enable the above and allow for writing code that is specific to the device at hand.
 
 ---
 ## Platform ##
-This package has been devoloped on macOS v10.15 and requires macOS v10.15 as minimum OS requirement.
+This package has been devoloped on **macOS v10.15** and requires macOS v10.15 as minimum OS requirement.
 
 ---
 
